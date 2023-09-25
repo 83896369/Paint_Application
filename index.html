@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Paint.css" />
+        <title>Paint Application</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <center>
+            <h1 class="heading">Painting & Re-Writing Image</h1>
+            <div class="image-carousel">
+                <img align="right"  src="I2.png"  alt="Background 1"  class="carousel-image">
+                <img align="right"  src="I3.jpg" alt="Background 2" class="carousel-image">
+                <img align="right"  src="I4.jpg" alt="Background 3" class="carousel-image">
+                <img align="right"  src="I5.jpg" alt="Background 3" class="carousel-image">
+                <img align="right"  src="I6.png" alt="Background 3" class="carousel-image">
+                <input  type="file" id="imageupload"  accept="image/*">
+            </div>
+            <div id="canvascontainer">
+                <canvas id="im" width="800" height="420"></canvas>
+            </div>
+            <div class="btn1">
+                <input type="text" id="textinput" placeholder="Enter text">
+                <button class="btn btn-Success" id="writebutton">Write</button>
+            </div>
+            <button id="savebutton">Save Image</button>
+        </center>
+        <script src="Paint.js"></script>
+</body>
+</html>

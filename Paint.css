@@ -1,0 +1,46 @@
+body{
+    background-image: url(backgroud.png);  
+  }
+  
+  #canvascontainer {
+    position: relative;
+  }
+  #im {
+    border-width: 10px;
+    background-color: rgba(241, 206, 206, 0.493);
+    border-style: ridge;
+    border-color: darkkhaki;
+  }
+  #savebutton{
+    background-color:rgba(112, 228, 112, 0.644);
+    color: tomato;
+  }
+  #textinput{
+    margin: 9px;
+  }
+  #imageupload{
+    margin-top: 15px;
+    
+  }
+  .heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #writebutton{
+    border-color: rgb(12, 12, 12);
+  }
+
+   /* Copying */
+  .image-carousel {
+    display: flex;
+		flex-direction: row-reverse;
+    align-items: end;
+    margin-bottom: 10px;
+  }
+  img{
+    height: 80px;
+    width: 80px;
+  }
+  .carousel-image:hover {
+    border: 2px solid rgb(244, 4, 24);
+  }
+  
